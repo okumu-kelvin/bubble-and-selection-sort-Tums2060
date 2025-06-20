@@ -7,8 +7,10 @@ def bubble_sort(unsorted_list):
                 unsorted_list[j], unsorted_list[j+1] = unsorted_list[j+1], unsorted_list[j]
                 
                 
-    return unsorted_list
+    
     print("Sorted: List: ", unsorted_list)
+    
+    return unsorted_list
     
 def main():
     unsorted_list = list(map(int, input("Enter elements, space: ").split()))
