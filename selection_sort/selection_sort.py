@@ -14,7 +14,7 @@ def selection_sort(arr):
         
     
         
-    print("Sorted List: ", arr)
+    
     
     return arr
     
@@ -25,6 +25,10 @@ def selection_sort(arr):
     
 def main():
     arr = list(map(int, input("Enter elements, space: ").split()))
-    selection_sort(arr)
+    sorted_arr = selection_sort(arr)
+    print("Sorted List: ", sorted_arr)
     
-main()
+    
+    
+if __name__ == "__main__":
+    main()
