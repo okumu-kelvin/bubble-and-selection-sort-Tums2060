@@ -6,6 +6,8 @@ def bubble_sort(unsorted_list):
             if unsorted_list[j] > unsorted_list[j+1]:
                 unsorted_list[j], unsorted_list[j+1] = unsorted_list[j+1], unsorted_list[j]
                 
+                
+    return unsorted_list
     print("Sorted: List: ", unsorted_list)
     
 def main():
