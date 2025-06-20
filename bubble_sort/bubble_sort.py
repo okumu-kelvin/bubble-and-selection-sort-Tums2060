@@ -16,4 +16,5 @@ def main():
     unsorted_list = list(map(int, input("Enter elements, space: ").split()))
     bubble_sort(unsorted_list)
     
-main()
+if __name__ == "__main__":
+    main()
